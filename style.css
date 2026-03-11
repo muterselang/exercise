@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+nav {
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 12px 24px;
+  border: none;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
